@@ -16,9 +16,16 @@ const Logo = styled.img`
 const StyledLink = styled(NavLink)`
   color: #fff;
   margin-left: 30px;
+
   &.active {
     border-bottom: 1px solid white;
   }
+`
+const Login = styled.div`
+  margin-left: auto;
+`
+const Button = styled.button`
+  margin-left: 10px
 `
 
 function Component() {
@@ -30,6 +37,14 @@ function Component() {
         <StyledLink to="/history" activeClassName="active">上传历史</StyledLink>
         <StyledLink to="/about" activeClassName="active">关于我</StyledLink>
       </nav>
+      <Login>
+        <Button>
+          <StyledLink to="/login" >登录</StyledLink>
+        </Button>
+        <Button>
+          <StyledLink to="/register">注册</StyledLink>
+        </Button>
+      </Login>
     </Header>
   )
 }

@@ -11,7 +11,7 @@ const Footer = styled.footer`
 function Component() {
   return (
     <Footer>
-      <h1>Footer</h1>
+      <p>Footer</p>
     </Footer>
   )
 }

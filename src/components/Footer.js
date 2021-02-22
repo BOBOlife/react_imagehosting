@@ -6,12 +6,13 @@ const Footer = styled.footer`
   text-align: center;
   font-size: 12px;
   color: #aaa;
+  background: #eceff2;
 `
 
 function Component() {
   return (
     <Footer>
-      <p>Footer</p>
+      <p>本版本由 <a href="https://github.com/BOBOlife" target="_blank">bobolife</a>所有</p>
     </Footer>
   )
 }
